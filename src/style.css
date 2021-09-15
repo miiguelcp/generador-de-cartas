@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  margin: 200px;
+}
+.carta {
+  background: white;
+  height: 300px;
+  width: 200px;
+}
+.parte-superior {
+  display: flex;
+  background-color: white;
+  height: 30%;
+  font-size: 30px;
+}
+.parte-superior p {
+  align-self: flex-end;
+  font-size: 55px;
+  padding-left: 5px;
+}
+.parte-media {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  height: 40%;
+  font-size: 100px;
+}
+.parte-media p {
+  align-self: center;
+}
+.parte-inferior {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 30%;
+}
+.parte-inferior p {
+  align-self: flex-start;
+  font-size: 55px;
+  padding-top: 10px;
+  padding-right: 5px;
+}
